@@ -1,0 +1,631 @@
+Sean Trent - 00707820
+CMSC 409
+Project 4
+
+(2.1)-----------------TERM DOCUMENT MATRIX-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Keyword set |     around  artifici    attain    author   autonom       car      come    driven      feel      home      hour     human  intellig  inventor   kitchen      know      larg     learn      live    machin      mile     owner       per       pet      road      room      size     updat      util      went      work
+Sentence  1 |          0         0         0         0         1         1         0         0         0         0         1         0         0         0         0         0         0         0         0         0         1         0         1         0         1         0         0         0         0         1         0
+Sentence  2 |          0         1         0         1         0         0         0         0         0         0         0         1         2         0         0         0         0         1         0         1         0         0         0         0         0         0         0         0         0         0         0
+Sentence  3 |          0         0         1         0         0         1         0         0         0         0         2         0         0         0         0         0         0         0         0         0         2         0         2         0         0         0         0         0         0         0         0
+Sentence  4 |          0         0         0         0         0         0         0         0         0         1         0         0         0         0         2         0         1         0         1         0         0         0         0         0         0         3         1         0         1         0         0
+Sentence  5 |          1         0         1         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         2         0         0         0         1         0         0         0         0         0         0
+Sentence  6 |          0         0         0         0         0         0         0         0         0         0         0         2         2         0         0         0         0         0         0         1         0         0         0         0         0         0         0         0         0         0         0
+Sentence  7 |          0         0         0         0         0         0         0         0         0         1         0         0         0         0         0         0         1         0         1         0         0         0         0         0         0         2         0         0         0         0         0
+Sentence  8 |          0         0         0         0         0         1         0         0         0         0         0         0         0         0         0         0         0         0         0         0         2         0         0         0         0         0         0         0         0         1         0
+Sentence  9 |          1         0         0         0         1         1         0         0         0         0         2         0         0         0         0         0         0         0         0         0         2         0         2         0         0         0         0         0         0         0         0
+Sentence 10 |          0         1         0         0         0         0         0         0         0         0         0         0         3         0         0         0         0         1         0         2         0         0         0         0         0         0         0         0         0         0         0
+Sentence 11 |          0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         1         0         2         0         0         0         0         3         0         0
+Sentence 12 |          0         0         0         0         0         0         1         0         0         2         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         1         0         0         0         0         0
+Sentence 13 |          0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         1         0         1         0         0         0         0         0         0         0
+Sentence 14 |          0         0         0         0         1         1         0         1         0         0         0         0         0         0         0         0         0         0         0         0         1         0         0         0         1         0         0         0         0         0         0
+Sentence 15 |          0         1         0         0         0         0         2         0         2         0         0         0         1         0         0         2         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Sentence 16 |          0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         1         0         0         0         0         0         0         0         0         3         3         0         0         0         0
+Sentence 17 |          0         0         0         0         1         0         0         1         0         0         0         0         0         0         0         0         0         0         0         0         2         0         0         0         0         0         0         0         0         0         0
+Sentence 18 |          0         0         0         0         0         0         0         0         0         1         0         0         0         0         1         0         0         0         0         0         0         0         0         0         0         0         0         2         0         0         0
+Sentence 19 |          0         1         0         0         0         0         0         0         0         0         0         0         1         2         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Sentence 20 |          0         0         0         0         1         1         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0         1         0         0         0         0         0         1
+Sentence 21 |          0         0         0         0         0         1         0         1         0         0         0         0         0         0         0         0         0         0         0         0         2         0         1         0         0         0         0         0         0         0         0
+Sentence 22 |          0         1         1         0         0         0         0         0         2         0         0         0         1         0         0         1         0         1         0         1         0         0         0         0         0         0         0         0         0         0         1
+Sentence 23 |          0         0         0         0         0         0         0         0         0         1         0         0         0         0         0         0         0         0         0         0         0         0         0         1         1         1         0         0         0         0         0
+Sentence 24 |          0         0         0         2         0         0         0         0         0         0         0         0         1         0         0         0         0         0         0         1         0         0         0         0         0         0         0         0         0         0         0
+Sentence 25 |          0         0         0         0         0         0         0         0         0         1         0         0         0         0         2         0         0         0         1         0         0         0         0         0         0         0         0         1         0         0         0
+Sentence 26 |          2         0         0         0         0         1         0         0         0         0         1         0         0         0         0         0         0         0         0         0         2         0         1         0         1         0         0         0         0         1         0
+Sentence 27 |          1         1         0         0         0         0         0         0         0         0         0         0         1         0         0         0         0         2         0         2         0         0         0         0         0         0         0         0         0         0         1
+Sentence 28 |          0         0         0         0         0         0         0         0         0         0         0         0         0         0         2         0         0         0         1         0         0         0         0         0         0         3         0         0         3         0         0
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+(2.2)
+	A.) Tokenizing the sentences separates them into a collection of Strings. This division is crucial because each sentence serves as a pattern for clustering, and they must obviously
+		be separate and discrete for that reason. Really the only data lost in the tokenization of the strings is perhaps their order/relevance to the strings around them.
+		That did not matter in this project because the sentences were inherently disjointed from the beginning.
+
+	B.) Special characters needed to be removed in order to properly parse out the raw meaning of each individual word. If they were left in, stemming would not work. 
+		They only thing that is lost by removing special characters is some minor sentence structuring. The text is getting harder for human interpretation.
+
+	C.) Numbers are removed because they are very undescriptive modifiers. They do not hold any actual meaning alone, only when paired with the subject they are numbering.
+		Yet, numbers are important for readability. Without them, the text becomes very disjointed, and several words also lose their importance when accompanying number is removed.
+
+	D.) Upper case letters provide no extra meaning for a word. They are only useful to signify proper nouns as well as the beginning of sentences.
+		However, we do not need them to identify proper nouns and we already broke the sentences apart, so we do not need or want them.
+
+	E.) Removing stop words is incredibly important to text mining. Otherwise, our data would be totally flooded and squashed by extremely high numbers of words like "a" and "it".
+		At this point, the text is in broken english, and only the vague meaning of each sentence can be deciphered.
+
+	F.) The Porter Stemmer attempts to convert words into something close to their basic, root forms so that they can be compared and possibly combined. Once stemmed, groups of similar
+		words can be easily identified and grouped together as a single word. At this point the text is gibberish to the human eye, as most words are converted into what appear
+		to be totally different words.
+
+	G.) As mentioned above, stemmed words can be grouped together and classified as a single word based on similar meanings. This drastically reduces the amount of words that 
+		have to be analyzed, reducing complexity and overhead. Whatever individual meaning the stemmed words had left were lost in grouping and instead replaced with one shared
+		meaning.
+		
+(3.0)
+	I chose to do a FCAN clustering algorithm for classifying similar sentences. Each input was a sentence broken up and represented only by the words that were more common than others
+		in the file (atleast 2 occurrences). This is of course after much combining and merging of text words. 
+	The following table shows which sentences were clustered together:
+
+Resulting Clustering----------------------
+	Cluster 1: 1 3 5 8 9 14 17 20 21 26 
+	Cluster 2: 2 6 10 15 19 22 24 27 
+	Cluster 3: 4 7 12 16 18 23 25 28 
+	Cluster 4: 11 13 
+
+	Human intuition says that the below table is a better clustering of the sentences into 3 categories: Self-Driving car, general AI history and current events, and house market 
+		ads/information. However, two sentences (11 and 13) were very similar to eachother, but not all that similar to any other strings. It likely most closely represents the
+		cluster of sentences about housing. (**I DID NOT CALCULATE THE BELOW TABLE, ONLY THE ABOVE ONE)
+
+Desired Clustering-------------------------
+	Cluster 1: 1 3 5 8 9 14 17 20 21 26
+	Cluster 2: 2 6 10 15 19 22 24 27
+	Cluster 3: 4 7 11 12 13 16 18 23 25 28
+	
+	My results could have possibly improved with a better Porter Stemming algorithm. The one I used (provided by instructor) seemed to translate some shorter words into complete
+		nonsense. With better stemming, I could have more effectively combined similar stems, which would have vastly improved my results because I did not consider any words
+		with less that 2 references in the text. Also, I think that more patterns would have allows the learning to be a little more robust and thus more accurate.
+	
+
+My code consists of two classes, DataPrep and FCAN. 
+
+	-DataPrep reads in "src/sentences.txt" and "src/stop_words.txt" and produces a text file for numberless, lowercase, special-character-less versions of the words as well as a TCM.
+	-FCAN takes the TCM from DataPrep and clusters the sentences based on the similarities to themselves.
+
+	(NOTE: CODE NEEDS THE COMMONS-LANG3-3.5 JAR IN ORDER TO RUN. THIS WAS USED TO HELP DETECT NUMERICAL VALUES.
+
+///////////////////////////////////////////////////////DATAPREP.JAVA///////////////////////////////////////////////
+
+import org.apache.commons.lang3.StringUtils;
+
+import java.io.*;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentMap;
+
+public class DataPrep {
+    private final static String BASE_SENTENCE_FILENAME = "src/sentences.txt";
+    private final static String STOP_WORDS_FILENAME = "src/stop_words.txt";
+    private final static String PRE_STEM_OUTPUT_FILENAME = "src/sentencesPreStem.txt";
+    private final static String POST_STEM_OUTPUT_FILENAME = "src/sentencesPostStem.txt";
+    private final static String TDM_FILENAME = "src/TDM.txt";
+
+    private final static String[] SPELLED_NUMS_ARRAY =
+            {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
+
+    private static final Set<String> SPELLED_NUMS = new HashSet<>(Arrays.asList(SPELLED_NUMS_ARRAY));
+
+    private static final Character[] SPECIAL_CHARS_ARRAY =
+            {',', '(', ')', '"', '"', '“', '”', '\''};
+    private static final Set<Character> SPECIAL_CHARS = new HashSet<>(Arrays.asList(SPECIAL_CHARS_ARRAY));
+
+    private static Set<String> stopWords;
+
+    private static boolean isNumber(String word) {
+        if (word.contains(".")) {
+            if (!word.substring(word.length() - 1).equals(".")) {
+                String[] parts = word.split("\\.");
+                if (parts.length < 3) {
+                    if (parts.length == 0) {
+                        return false;
+                    }
+                    if (StringUtils.isNumeric(parts[0]) && StringUtils.isNumeric(parts[1])) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                } else {
+                    return false;
+                }
+            } else {
+                return false;
+            }
+        } else if (StringUtils.isNumeric(word)) {
+            return true;
+        } else if (SPELLED_NUMS.contains(word)) {
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean isEndOfSentence(String word) {
+        if (word.contains(".")) {
+            if (word.substring(word.length() - 1).equals(".")) {
+                return true;
+            }
+            return false;
+        }
+        return false;
+    }
+
+    private static boolean isEndOfSentenceNumber(String endWord) {
+        String word = endWord.substring(0, endWord.length() - 1);
+        if (StringUtils.isNumeric(word)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    private static String removeSpecialCharacters(String word) {
+        String fixedWord = "";
+        for (int i = 0; i < word.length(); i++) {
+            Character c = word.charAt(i);
+            if (!SPECIAL_CHARS.contains(c)) {
+                fixedWord += c;
+            }
+        }
+        return fixedWord;
+    }
+
+    //Assures every result has at least 2 entries
+    private static String[] splitHyphenated(String word) {
+        String[] result;
+        if (word.charAt(0) == '-') {
+            return new String[]{word.substring(1, word.length()), ""};
+        } else if (word.charAt(word.length() - 1) == '-') {
+            return new String[]{word.substring(0, word.length() - 1), ""};
+        } else {
+            return word.split("-");
+        }
+    }
+
+    private static boolean isWord(String word) {
+        if (word.length() > 1) {
+            return true;
+        }
+        return false;
+    }
+
+    private static boolean isStopWord(String word) {
+        return stopWords.contains(word);
+    }
+
+    private static void stemSentences(String preStemData, String postStemFileName) {
+        char[] w = new char[501];
+        Stemmer s = new Stemmer();
+        try {
+            FileInputStream in = new FileInputStream(preStemData);
+            PrintWriter writer = new PrintWriter(postStemFileName);
+            try {
+                while (true) {
+                    int ch = in.read();
+                    if (Character.isLetter((char) ch)) {
+                        int j = 0;
+                        while (true) {
+                            ch = Character.toLowerCase((char) ch);
+                            w[j] = (char) ch;
+                            if (j < 500) j++;
+                            ch = in.read();
+                            if (!Character.isLetter((char) ch)) {
+                                for (int c = 0; c < j; c++) s.add(w[c]);
+                                s.stem();
+                                {
+                                    String u;
+                                    u = s.toString();
+                                    writer.print(u);
+                                }
+                                break;
+                            }
+                        }
+                    }
+                    if (ch < 0) break;
+                    writer.print((char) ch);
+                }
+                writer.close();
+            } catch (IOException e) {
+                System.out.println("error reading " + preStemData);
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("file " + preStemData + " not found");
+        }
+    }
+
+    public static void combine(String remove, String keep, Map<String, Integer> stems, Map<String, String> combined){
+        int numRemove = stems.get(remove);
+        int sum = stems.get(keep) + numRemove;
+        stems.remove(remove);
+        stems.replace(keep, sum);
+        combined.put(remove, keep);
+    }
+
+    public static int[][] sendTDM(){
+        try {
+            File stopWordsFile = new File(STOP_WORDS_FILENAME);
+            Scanner stopWordsScanner = new Scanner(stopWordsFile);
+            stopWords = new HashSet<>();
+            while (stopWordsScanner.hasNext()) {
+                stopWords.add(stopWordsScanner.next());
+            }
+            stopWordsScanner.close();
+
+            File file = new File(BASE_SENTENCE_FILENAME);
+            Scanner scanner = new Scanner(file);
+            String sentence = "";
+            ArrayList<String> sentenceList = new ArrayList<>();
+
+            while (scanner.hasNext()) {
+                String word = scanner.next().toLowerCase();
+                word = removeSpecialCharacters(word);
+                word = word.trim();
+
+                //Hyphenated
+                if (word.contains("-")) {
+                    String[] hyphen = splitHyphenated(word);
+                    String word1 = hyphen[0];
+                    String word2 = hyphen[1];
+                    word1 = removeSpecialCharacters(word1);
+                    word1 = word1.trim();
+                    word2 = removeSpecialCharacters(word2);
+                    word2 = word2.trim();
+
+                    if (!isNumber(word1)) {
+                        if (isWord(word1) && !isStopWord(word1)) {
+                            sentence += (word1 + " ");
+                        }
+                    }
+
+                    if (!isNumber(word2)) {
+                        if (isEndOfSentence(word2)) {
+                            if (isEndOfSentenceNumber(word2)) {
+                                sentenceList.add(sentence);
+                                sentence = "";
+                            } else {
+                                if (isWord(word2) && !isStopWord(word2)) {
+                                    sentence += word2.substring(0, word2.length() - 1);
+                                    sentenceList.add(sentence);
+                                    sentence = "";
+                                }
+                            }
+                        } else {
+                            if (isWord(word2) && !isStopWord(word2)) {
+                                sentence += (word2 + " ");
+                            }
+                        }
+                    }
+                }
+                //Not Hyphenated
+                else {
+                    if (!isNumber(word)) {
+                        if (isEndOfSentence(word)) {
+                            if (isEndOfSentenceNumber(word)) {
+                                sentenceList.add(sentence);
+                                sentence = "";
+                            } else {
+                                if (isWord(word) && !isStopWord(word)) {
+                                    sentence += word.substring(0, word.length() - 1);
+                                    sentenceList.add(sentence);
+                                    sentence = "";
+                                }
+                            }
+                        } else {
+                            if (isWord(word) && !isStopWord(word)) {
+                                sentence += (word + " ");
+                            }
+                        }
+                    }
+                }
+            }
+            scanner.close();
+
+            PrintWriter writer = new PrintWriter(PRE_STEM_OUTPUT_FILENAME);
+            for (String line : sentenceList) {
+                writer.println(line);
+            }
+            writer.close();
+
+            stemSentences(PRE_STEM_OUTPUT_FILENAME, POST_STEM_OUTPUT_FILENAME);
+
+            File stemmedSentencesFile = new File(POST_STEM_OUTPUT_FILENAME);
+            //Map<String, Integer> stems = new HashMap<>();
+            Map<String, Integer> stems = new TreeMap<>();
+            scanner = new Scanner(stemmedSentencesFile);
+            while (scanner.hasNext()){
+                String stemWord = scanner.next();
+                if (stems.containsKey(stemWord)){
+                    int count = stems.get(stemWord);
+                    count++;
+                    stems.replace(stemWord, count);
+                }
+                else{
+                    stems.put(stemWord, 1);
+                }
+            }
+            scanner.close();
+
+            Map<String, String> combinedWords = new HashMap<>();
+            combine("townhous", "hous", stems, combinedWords);
+            combine("hous", "home", stems, combinedWords);
+            combine("kilomet", "mile", stems, combinedWords);
+            combine("renov", "remodel", stems, combinedWords);
+            combine("describ", "express", stems, combinedWords);
+            combine("bed", "bedroom", stems, combinedWords);
+            combine("bath", "bathroom", stems, combinedWords);
+            combine("drive", "driven", stems, combinedWords);
+            combine("sens", "feel", stems, combinedWords);
+            combine("sedan", "car", stems, combinedWords);
+            combine("anim", "pet", stems, combinedWords);
+            combine("achiev", "attain", stems, combinedWords);
+            combine("central", "major", stems, combinedWords);
+            combine("complet", "finish", stems, combinedWords);
+            combine("nice", "great", stems, combinedWords);
+            combine("awar", "sentienc", stems, combinedWords);
+            combine("trash", "sewag", stems, combinedWords);
+            combine("sewag", "water", stems, combinedWords);
+            combine("through", "via", stems, combinedWords);
+            combine("recent", "new", stems, combinedWords);
+            combine("newli", "freshli", stems, combinedWords);
+            combine("area", "space", stems, combinedWords);
+            combine("rang", "spread", stems, combinedWords);
+            combine("sort", "type", stems, combinedWords);
+            combine("biolog", "human", stems, combinedWords);
+            combine("go", "went", stems, combinedWords);
+            combine("round", "around", stems, combinedWords);
+            combine("realiti", "world", stems, combinedWords);
+            combine("queen", "king", stems, combinedWords);
+            combine("rent", "tenant", stems, combinedWords);
+            combine("tenant", "owner", stems, combinedWords);
+            combine("combin", "merger", stems, combinedWords);
+            combine("increas", "improv", stems, combinedWords);
+            combine("dryer", "washer", stems, combinedWords);
+            combine("john", "mccarthi", stems, combinedWords);
+            combine("mccarthi", "inventor", stems, combinedWords);
+            combine("rai", "kurzweil", stems, combinedWords);
+            combine("kurzweil", "author", stems, combinedWords);
+            combine("get", "attain", stems, combinedWords);
+            combine("knowledg", "know", stems, combinedWords);
+            combine("wai", "rout", stems, combinedWords);
+            combine("entir", "full", stems, combinedWords);
+            combine("engag", "work", stems, combinedWords);
+            combine("gener", "common", stems, combinedWords);
+            combine("comput", "machin", stems, combinedWords);
+            combine("number", "multipl", stems, combinedWords);
+            combine("fundament", "groundwork", stems, combinedWords);
+            combine("lisp", "languag", stems, combinedWords);
+            combine("suit", "room", stems, combinedWords);
+            combine("travel", "went", stems, combinedWords);
+            combine("deal", "work", stems, combinedWords);
+            combine("pound", "gallon", stems, combinedWords);
+            combine("eat", "kitchen", stems, combinedWords);
+            combine("rout", "road", stems, combinedWords);
+            combine("heat", "util", stems, combinedWords);
+            combine("ga", "util", stems, combinedWords);
+            combine("air", "util", stems, combinedWords);
+            combine("water", "util", stems, combinedWords);
+            combine("electr", "util", stems, combinedWords);
+            combine("famili", "pet", stems, combinedWords);
+            combine("bathroom", "room", stems, combinedWords);
+            combine("bedroom", "room", stems, combinedWords);
+
+            writer = new PrintWriter(TDM_FILENAME);
+            ArrayList<String> frequentStems = new ArrayList<>();
+            String topLine = "Keyword set | ";
+            for (Map.Entry<String, Integer> entry : stems.entrySet()){
+                String word = entry.getKey();
+                Integer count = entry.getValue();
+                if (count > 2){
+                    frequentStems.add(word);
+                    word = String.format("%10s", word);
+                    topLine += word;
+                    //System.out.print
+                }
+            }
+            writer.println(topLine);
+
+            String[] frequentStemArray = frequentStems.toArray(new String[frequentStems.size()]);
+            int[][] TDM = new int[sentenceList.size()][frequentStems.size()];
+
+            scanner = new Scanner(stemmedSentencesFile);
+            Scanner sentenceScanner;
+            int sentNum = 0;
+            while(scanner.hasNextLine()){
+                String tableEntry = String.format("Sentence %2d | ", sentNum+1);
+                String sent = scanner.nextLine();
+                sentenceScanner = new Scanner(sent);
+                while (sentenceScanner.hasNext()){
+                    String word = sentenceScanner.next();
+                    for (int i = 0; i<frequentStemArray.length; i++){
+                        String freq = frequentStemArray[i];
+                        if (word.equals(freq)){
+                            TDM[sentNum][i]++;
+                        }
+                        if(combinedWords.containsKey(word)){
+                            if (freq.equals(combinedWords.get(word))){
+                                TDM[sentNum][i]++;
+                            }
+                        }
+                    }
+                }
+                for (int i = 0; i<TDM[sentNum].length; i++){
+                    String entry = String.format("%10d", TDM[sentNum][i]);
+                    tableEntry += entry;
+                }
+                sentenceScanner.close();
+                sentNum++;
+                writer.println(tableEntry);
+            }
+            scanner.close();
+            writer.close();
+            //int debugcatcher = 0;
+
+            return TDM;
+
+        } catch (FileNotFoundException e) {
+            System.out.println("file not found");
+        }
+
+        return null;
+    }
+
+    public static void main(String[] args) {
+        sendTDM();
+    }
+}
+
+
+/////////////////////////////////////////////////////////////FCAN.JAVA//////////////////////////////////////////////////////////////
+
+
+import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+public class FCAN {
+    private int[][] tdm;
+    private List<Cluster> clusters;
+    private final double MAX_DISTANCE = 11;
+    private final static int NUM_WEIGHTS = 31;
+
+    public FCAN(){
+        this.tdm = DataPrep.sendTDM();
+        this.clusters = new CopyOnWriteArrayList<>();
+    }
+
+    public int addPattern(int sentNum, int[] pattern){
+        if (sentNum == 10 || sentNum == 12){
+            int catchDebug = 0;
+        }
+        if (sentNum == 0){
+            this.clusters.add(new Cluster(sentNum, pattern));
+            return 0;
+        }
+        else{
+            Cluster cluster = findMinDisCluster(sentNum, pattern);
+            if (cluster.calcDistance(pattern) > MAX_DISTANCE){
+                this.clusters.add(new Cluster(sentNum, pattern));
+            }
+            else {
+                cluster.addMember(sentNum);
+                cluster.updateWeights(pattern);
+            }
+        }
+        return -2;
+    }
+
+    public void redoClusters(){
+        for (Cluster outerClust : this.clusters){
+            for (Integer member : outerClust.members){
+                double min = outerClust.calcDistance(this.tdm[member]);
+                for (Cluster innerClust : this.clusters){
+                    double dist = innerClust.calcDistance(this.tdm[member]);
+                    if (dist < min){
+                        min = dist;
+                        outerClust.removeMember(member);
+                        innerClust.addMember(member);
+                    }
+                }
+            }
+        }
+    }
+
+    public Cluster findMinDisCluster(int sentNum, int[] pattern){
+        double min = Double.MAX_VALUE;
+        Cluster target = null;
+        for (Cluster cluster : this.clusters){
+            double distance = cluster.calcDistance(pattern);
+            if (distance<min){
+                min = distance;
+                target = cluster;
+            }
+        }
+        return target;
+    }
+
+    class Cluster{
+        int num_weights = NUM_WEIGHTS;
+        int m;
+        double alpha = .9;
+        double[] weights;
+        List<Integer> members;
+
+        public Cluster(int sentNum, int[] sentence){
+            this.members = new CopyOnWriteArrayList<>();
+            members.add(sentNum);
+            this.m = 1;
+            this.weights = new double[this.num_weights];
+            for (int i = 0; i<this.num_weights; i++){
+                this.weights[i] = sentence[i];
+            }
+        }
+
+        public void addMember(int i){
+            this.members.add(i);
+        }
+
+        public void removeMember(int i){
+            for (int index = 0; index<this.members.size(); index++){
+                if (this.members.get(index).equals(i)){
+                    this.members.remove(index);
+                    return;
+                }
+            }
+        }
+
+        public String memberToString(){
+            String result = "";
+            Iterator<Integer> through = this.members.iterator();
+            while (through.hasNext()){
+                int mem = through.next();
+                mem++;
+                result += (mem + " ");
+            }
+            return result;
+        }
+
+        public double calcDistance(int[] sentence){
+            double totalDistance = 0;
+            for (int i = 0; i<this.num_weights; i++){
+                double distance = Math.abs(this.weights[i] - (double) sentence[i]);
+                totalDistance += distance;
+            }
+            return totalDistance;
+        }
+
+        public void updateWeights(int[] sentence){
+            for (int i = 0; i<this.num_weights; i++){
+                double wk = ((this.m*this.weights[i]) + (this.alpha*sentence[i])) / (this.m+1);
+                this.weights[i] = wk;
+            }
+            this.m++;
+        }
+    }
+
+    public static void main(String[] args){
+        FCAN fcan = new FCAN();
+        int status = -3;
+        for (int i = 0; i<fcan.tdm.length; i++){
+            status = fcan.addPattern(i, fcan.tdm[i]);
+            if (status<0){
+                fcan.redoClusters();
+            }
+        }
+
+        int count = 1;
+        for (Cluster cluster : fcan.clusters){
+            if (cluster.members.size() < 1){
+                fcan.clusters.remove(cluster);
+            }
+            else {
+                System.out.println("Cluster " + count + ": " + cluster.memberToString());
+                count++;
+            }
+        }
+    }
+}
+
+
