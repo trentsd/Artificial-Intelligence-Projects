@@ -1,0 +1,9 @@
+predicted output= 58.13, actual output= 59.50, error= -1.37, percent error=  2.30
+predicted output= 62.02, actual output= 64.00, error= -1.98, percent error=  3.10
+predicted output= 65.90, actual output= 68.70, error= -2.80, percent error=  4.08
+predicted output= 69.78, actual output= 73.65, error= -3.87, percent error=  5.26
+predicted output= 73.66, actual output= 78.43, error= -4.77, percent error=  6.08
+predicted output= 77.54, actual output= 82.00, error= -4.46, percent error=  5.44
+predicted output= 81.42, actual output= 85.20, error= -3.78, percent error=  4.43
+predicted output= 85.31, actual output= 87.00, error= -1.69, percent error=  1.95
+predicted output= 89.19, actual output= 90.67, error= -1.48, percent error=  1.64
